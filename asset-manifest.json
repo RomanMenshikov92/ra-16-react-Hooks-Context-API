@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra-16-react-hooks-context-API/static/css/main.ed51a9b8.css",
+    "main.js": "/ra-16-react-hooks-context-API/static/js/main.7214989c.js",
+    "static/js/787.ab1304ef.chunk.js": "/ra-16-react-hooks-context-API/static/js/787.ab1304ef.chunk.js",
+    "index.html": "/ra-16-react-hooks-context-API/index.html",
+    "main.ed51a9b8.css.map": "/ra-16-react-hooks-context-API/static/css/main.ed51a9b8.css.map",
+    "main.7214989c.js.map": "/ra-16-react-hooks-context-API/static/js/main.7214989c.js.map",
+    "787.ab1304ef.chunk.js.map": "/ra-16-react-hooks-context-API/static/js/787.ab1304ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed51a9b8.css",
+    "static/js/main.7214989c.js"
+  ]
+}
