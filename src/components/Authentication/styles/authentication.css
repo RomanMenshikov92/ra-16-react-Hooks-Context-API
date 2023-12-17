@@ -1,0 +1,136 @@
+.neto {
+  width: 900px;
+  margin: 20px 0;
+}
+.header__neto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: aliceblue;
+}
+.header__neto-logo {
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 700;
+}
+.header__neto-form-auth {
+  display: flex;
+  gap: 5px;
+}
+.header__neto-input-login,
+.header__neto-input-password {
+  padding: 10px 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  font-size: 14px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  background-color: white;
+}
+.header__neto-btn-login {
+  padding: 10px 10px;
+  border: 1px solid green;
+  border-radius: 7px;
+  font-size: 14px;
+  color: green;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: color, background-color 0.2s ease-out;
+  -webkit-transition: color, background-color 0.2s ease-out;
+  -moz-transition: color, background-color 0.2s ease-out;
+  -ms-transition: color, background-color 0.2s ease-out;
+  -o-transition: color, background-color 0.2s ease-out;
+}
+.header__neto-btn-login:hover {
+  color: white;
+  background-color: green;
+}
+.main__container {
+  width: 700px;
+  margin: 20px auto;
+}
+.main__neto-banner {
+  margin-top: 10px;
+  padding: 40px 10px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.main__neto-title {
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+}
+.main__neto-description {
+  font-size: 18px;
+}
+.header__neto-toolbar {
+  display: flex;
+  gap: 10px;
+}
+.header__neto-wrapper-img {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5px;
+}
+.header__neto-btn-logout {
+  align-self: center;
+  padding: 10px 10px;
+  border: 1px solid red;
+  border-radius: 7px;
+  font-size: 14px;
+  color: red;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: color, background-color 0.2s ease-out;
+  -webkit-transition: color, background-color 0.2s ease-out;
+  -moz-transition: color, background-color 0.2s ease-out;
+  -ms-transition: color, background-color 0.2s ease-out;
+  -o-transition: color, background-color 0.2s ease-out;
+}
+.header__neto-btn-logout:hover {
+  color: white;
+  background-color: red;
+}
+.header__neto-name {
+  font-size: 17px;
+}
+.header__neto-img {
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main__neto-newsfeed-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.main__neto-newsfeed-item {
+  border: 1px solid gray;
+}
+.main__neto-newsfeed-item-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: normal;
+}
+.main__neto-newsfeed-item-text {
+  padding: 10px 10px;
+}
+.main__neto-newsfeed-item-img {
+  object-position: center;
+}

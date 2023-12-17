@@ -1,0 +1,62 @@
+.btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+}
+.list-reset {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.list-and-details {
+  display: flex;
+  gap: 50px;
+  width: 700px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+.list-and-details__list,
+.list-and-details__details {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+.list-and-details__item {
+  padding: 5px 10px;
+  transition: background-color, color 0.2s ease-in-out;
+  -webkit-transition: background-color, color 0.2s ease-in-out;
+  -moz-transition: background-color, color 0.2s ease-in-out;
+  -ms-transition: background-color, color 0.2s ease-in-out;
+  -o-transition: background-color, color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.list-and-details__item:not(:first-child) {
+  border-top: 1px solid lightgray;
+}
+.list-and-details__details-name {
+  padding: 10px 20px 20px;
+  border-bottom: 1px solid lightgray;
+}
+.list-and-details__details-city,
+.list-and-details__details-company,
+.list-and-details__details-position {
+  padding: 10px 20px;
+}
+.list-and-details__details-city,
+.list-and-details__details-company {
+  border-bottom: 1px solid lightgray;
+}
+.list-and-details__item.active {
+  background-color: royalblue;
+  color: white;
+}
+.list-and-details__loading {
+  font-size: 30px;
+  font-weight: 700;
+}
