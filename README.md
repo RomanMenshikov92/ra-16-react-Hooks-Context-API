@@ -1,6 +1,6 @@
 # HOC — Hooks & Context API
 
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/v6mdu9nojlbt8u28?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/ra-16-react-hooks-context-api)
+[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/nppt6q5h7w0xqv7y?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/ra-16-react-hooks-context-api)
 
 [![Pages build status](https://github.com/RomanMenshikov92/ra-16-react-hooks-context-api/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RomanMenshikov92/ra-16-react-hooks-context-api/actions/workflows/pages/pages-build-deployment)
 
